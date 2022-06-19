@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: #5cb85c;
+    position: fixed;
+    top: 0;
+}
+
+.top{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link{
+    display: flex;
+}
+
+/*设置logo*/
+.header-link h1{
+    color: #fff;
+    line-height: 80px;
+    margin-right: 20px;
+}
+
+/*设置各个标题*/
+.header-link a{
+    margin: 0 20px;
+    text-decoration: none;
+    line-height: 80px;
+    color: #fff;
+}
+
+.header-link h1 a{
+    margin: 0;
+}
+
+.header-info{
+    display: flex;
+}
+
+.header-info p{
+    color: #fff;
+    line-height: 80px;
+    margin-right: 10px;
+}
+
+.header-info .logout{
+    line-height: 80px;
+}
+
+.header-info .logout a{
+    text-decoration: none;
+    color: #fff;
+}

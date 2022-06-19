@@ -1,0 +1,62 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main{
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.visitor-name, .visitor-phone, .visitor-message{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.visitor-name p, .visitor-phone p, .visitor-message p{
+    width: 200px;
+    line-height: 40px;
+}
+
+.visitor-name input, .visitor-phone input{
+    height: 34px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+.visitor-message .textarea{
+    width: 100%;
+    height: 100px;
+    padding: 6px 10px;
+    color: #555;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit{
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.submit input{
+    cursor: pointer;
+    padding: 12px 25px;
+    background: #5cb85c;
+    border: 1px solid #5cb85c;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+}
